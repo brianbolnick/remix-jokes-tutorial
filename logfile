@@ -1,0 +1,15 @@
+2022-05-20 23:03:50.366 MDT [98896] LOG:  starting PostgreSQL 14.3 on x86_64-apple-darwin21.3.0, compiled by Apple clang version 13.1.6 (clang-1316.0.21.2), 64-bit
+2022-05-20 23:03:50.368 MDT [98896] LOG:  listening on IPv6 address "::1", port 5432
+2022-05-20 23:03:50.368 MDT [98896] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2022-05-20 23:03:50.369 MDT [98896] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-05-20 23:03:50.373 MDT [98897] LOG:  database system was shut down at 2022-05-20 23:03:37 MDT
+2022-05-20 23:03:50.376 MDT [98896] LOG:  database system is ready to accept connections
+2022-05-20 23:04:07.370 MDT [98941] FATAL:  role "postgres" does not exist
+2022-05-20 23:05:10.205 MDT [424] FATAL:  role "postgres" does not exist
+2022-05-20 23:05:11.761 MDT [425] FATAL:  role "postgres" does not exist
+2022-05-20 23:05:51.091 MDT [455] FATAL:  lock file "postmaster.pid" already exists
+2022-05-20 23:05:51.091 MDT [455] HINT:  Is another postmaster (PID 98896) running in data directory "/usr/local/var/postgres/data"?
+2022-05-20 23:07:30.886 MDT [98896] LOG:  received smart shutdown request
+2022-05-20 23:07:30.889 MDT [98896] LOG:  background worker "logical replication launcher" (PID 98903) exited with exit code 1
+2022-05-20 23:07:30.889 MDT [98898] LOG:  shutting down
+2022-05-20 23:07:30.898 MDT [98896] LOG:  database system is shut down
